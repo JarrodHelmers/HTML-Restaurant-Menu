@@ -30,6 +30,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -48,8 +49,9 @@ nav a {
     margin-right: 25px;
 }
 
+/* Changed the nav bar text hover color from red to lime green.*/
 nav a:hover {
-    color: darkred;
+    color: limegreen;
 }
 
 #banner {
@@ -65,6 +67,7 @@ nav a:hover {
 
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
